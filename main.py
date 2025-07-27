@@ -304,7 +304,6 @@ class PriceMonitor:
             else:
                 print(f"⚡ Arbitrage Opportunity: Buy on Binance, Sell on PancakeSwap (+{-diff_pct:.2f}%)")
 
-    # Modify main() to start both WebSocket connections
     def start(self):
         print("[Main] Starting price monitor...")
         
